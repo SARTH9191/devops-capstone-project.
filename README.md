@@ -1,4 +1,18 @@
-# DevOps Capstone Template
+# devops-capstone-project
+
+## Project Overview
+
+The DevOps Capstone Project focuses on developing a RESTful customer accounts microservice for an e-commerce application using Python and Flask.
+
+The service will support retrieving, updating, deleting, and listing customer accounts. The project will also cover Agile planning using GitHub Projects, automated testing, containerization with Docker, and deployment to Kubernetes.
+
+## Objectives
+
+- Plan development using Agile user stories and sprints.
+- Implement REST APIs for customer account management.
+- Test the microservice and maintain code quality.
+- Containerize the application using Docker.
+- Deploy the application to Kubernetes.# DevOps Capstone Template
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
