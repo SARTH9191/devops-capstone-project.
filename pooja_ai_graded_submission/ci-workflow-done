@@ -1,0 +1,38 @@
+Run actions/checkout@v2
+  Syncing repository: patilpooja2005/devops-capstone-project
+  Getting Git data from origin
+  HEAD is now at 84f9812 Trigger CI again
+Run pip install -r requirements.txt
+  Successfully installed Faker-37.12.0 Flask-2.1.2 Flask-Cors-1.10.3 Flask-SQLAlchemy-2.5.1 Werkzeug-2.1.2 coverage-6.3.2 flake8-4.0.1 flask-talisman-1.1.0 gunicorn-20.1.0 nose-1.3.7 pinocchio-0.4.3 psycopg2-binary-2.9.3 pylint-2.14.0
+Run flake8 service --count --max-complexity=10 --max-line-length=127 --statistics
+  0
+Run nosetests
+  Test Account Model
+  - Create an account and add it to the database ... ok
+  - Find an account by ID ... ok
+  - Update an account in the database ... ok
+  - Delete an account from the database ... ok
+  - List all accounts in the database ... ok
+  Test Account REST API Service
+  - It should get root URL response ... ok
+  - It should get health status ... ok
+  - It should create a new account ... ok
+  - It should read an existing account ... ok
+  - It should return 404 for account not found ... ok
+  - It should update an existing account ... ok
+  - It should delete an existing account ... ok
+  - It should list all accounts ... ok
+  - It should enforce Talisman security headers ... ok
+  - It should establish CORS policies ... ok
+
+  Name                  Stmts   Miss  Cover   Missing
+  ---------------------------------------------------
+  service/__init__.py      26      0   100%
+  service/models.py        62      3    95%   85, 92, 105
+  service/routes.py        78      2    97%   44, 76
+  ---------------------------------------------------
+  TOTAL                   166      5    97%
+  ----------------------------------------------------------------------
+  Ran 25 tests in 1.482s
+
+  OK

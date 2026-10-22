@@ -1,0 +1,17 @@
+Test Security Headers and CORS Policies
+- It should return security headers (X-Frame-Options, X-Content-Type-Options) ... ok
+- It should enforce Content-Security-Policy ... ok
+- It should establish CORS headers allowing cross-origin requests ... ok
+- It should return Access-Control-Allow-Origin header ... ok
+
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+service/__init__.py      26      0   100%
+service/models.py        62      3    95%   85, 92, 105
+service/routes.py        78      2    97%   44, 76
+---------------------------------------------------
+TOTAL                   166      5    97%
+----------------------------------------------------------------------
+Ran 25 tests in 1.482s
+
+OK
