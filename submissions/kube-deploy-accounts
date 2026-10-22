@@ -1,0 +1,15 @@
+NAME                            READY   STATUS    RESTARTS   AGE
+pod/accounts-69b9b6574c-4x2lm   1/1     Running   0          2m35s
+pod/accounts-69b9b6574c-8p7qv   1/1     Running   0          2m35s
+pod/accounts-69b9b6574c-g9df2   1/1     Running   0          2m35s
+pod/postgresql-1-9jkl4          1/1     Running   0          18m
+
+NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)    AGE
+service/accounts       ClusterIP   172.30.124.89    <none>        8080/TCP   2m35s
+service/postgresql     ClusterIP   172.30.245.110   <none>        5432/TCP   18m
+
+NAME                       READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/accounts   3/3     3            3           2m35s
+
+NAME                                  DESIRED   CURRENT   READY   AGE
+replicaset.apps/accounts-69b9b6574c   3         3         3       2m35s

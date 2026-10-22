@@ -1,0 +1,5 @@
+REPOSITORY                                                              TAG       IMAGE ID       CREATED          SIZE
+image-registry.openshift-image-registry.svc:5000/sn-labs-sarthakpawar/accounts   1         a38f71b9c450   10 minutes ago   168MB
+accounts                                                                latest    a38f71b9c450   10 minutes ago   168MB
+python                                                                  3.9-slim  7bc032128a36   2 weeks ago      125MB
+postgres                                                                alpine    91ef2b89d564   3 weeks ago      243MB

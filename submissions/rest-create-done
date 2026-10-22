@@ -1,0 +1,18 @@
+curl -X POST http://localhost:8080/accounts \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Sarthak Pawar",
+    "email": "sarthp9191@gmail.com",
+    "address": "123 DevOps Avenue, Cloud City",
+    "phone_number": "555-0199",
+    "date_joined": "2023-01-15"
+  }'
+
+{
+  "address": "123 DevOps Avenue, Cloud City",
+  "date_joined": "2023-01-15",
+  "email": "sarthp9191@gmail.com",
+  "id": 1,
+  "name": "Sarthak Pawar",
+  "phone_number": "555-0199"
+}

@@ -1,0 +1,18 @@
+curl -X PUT http://localhost:8080/accounts/1 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Sarthak Pawar",
+    "email": "sarthp9191@gmail.com",
+    "address": "456 Enterprise Blvd, Suite 200",
+    "phone_number": "555-9876",
+    "date_joined": "2023-01-15"
+  }'
+
+{
+  "address": "456 Enterprise Blvd, Suite 200",
+  "date_joined": "2023-01-15",
+  "email": "sarthp9191@gmail.com",
+  "id": 1,
+  "name": "Sarthak Pawar",
+  "phone_number": "555-9876"
+}
